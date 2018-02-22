@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Хуш омадед ба Маркази худро бисанч
 
-You can use the [editor on GitHub](https://github.com/Ismoilov10/testcenter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Дар инчо шумо метавонед аз фанни [Таърих](https://github.com/Ismoilov10/testcenter/tests "Таърих") ё ин ки аз дигар фанхо худро бисанчед.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
