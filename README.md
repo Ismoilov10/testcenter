@@ -1,6 +1,6 @@
-## Хуш омадед ба Маркази "Худро бисанч"
+## Welcome ""
 
-Дар инчо шумо метавонед аз фанни [Ali](https://ismoilov10.github.io/testcenter/tests "Таърих") ё ин ки аз дигар фанхо худро бисанчед.
+Click here -->[Ali](https://ismoilov10.github.io/testcenter/ali "ali")
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 ```
