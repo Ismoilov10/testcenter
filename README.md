@@ -1,6 +1,6 @@
 ## Хуш омадед ба Маркази "Худро бисанч"
 
-Дар инчо шумо метавонед аз фанни [Таърих](https://ismoilov10.github.io/testcenter/tests "Таърих") ё ин ки аз дигар фанхо худро бисанчед.
+Дар инчо шумо метавонед аз фанни [Ali](https://ismoilov10.github.io/testcenter/tests "Таърих") ё ин ки аз дигар фанхо худро бисанчед.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 ```
@@ -9,11 +9,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 markdown
-Яке аз фанхои зеринро интихоб кунед
-
-[Математика](https://ismoilov10.github.io/testcenter/tests "Математика")
-[Таърих](https://ismoilov10.github.io/testcenter/tests "Таърих")
-[Забони ва адабиёти точик](https://ismoilov10.github.io/testcenter/tests "Забони ва адабиёти точик")
 
 - Bulleted
 - List
