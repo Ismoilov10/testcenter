@@ -3,8 +3,8 @@ $(function(){
 
 	
 $("body").on("click",".btnn",function(){
-    var words = ["Manchester City","Manchester United","Barcelona","Real Madrid","Arsenal","Chelsea","Bayern Munchёn","Juventus","PSG","Atletico Madrid","BVB","Liverpool"]
-       $("#word")
+    var words = ["Manchester City","Manchester United","Barcelona","Real Madrid","Arsenal","Chelsea","Bayern Munchёn","Juventus","PSG","ATM","BVB","Liverpool"] 
+    
      var hisob = {
      	random:random
      }
@@ -15,7 +15,15 @@ $("body").on("click",".btnn",function(){
       	$(".word").html(""+words[rakam])
       }
       hisob.random(4)
+
+      var word = $(".word").html();
+
+      
+        $(".img").html('<img src="image/'+word+'.jpg">')
+        if (word=="ATM") {
+          $(".img").html('<img src="image/ATM.jpeg">')
+        }
+
       });  
-
-
+        
 });
