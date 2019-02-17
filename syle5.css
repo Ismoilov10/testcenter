@@ -1,0 +1,136 @@
+body{
+	background-color: #333;
+}
+.wrap{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100px;
+	margin: auto;
+	background-color: gray;
+	width: 600px;
+	height: 400px;
+}
+.inps{
+	position: relative;
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.btn{
+	position: relative;
+	margin-left: 25px;
+	margin-top: 20px;
+	width: 550px;
+	background-color: darkred;
+	color: white;
+	font-size: 35px;	
+}
+.btn:hover{
+	background-color: #4e0202;
+	color: white;
+}
+.javob{
+	position: relative;
+	float: left;
+	font-size: 60px;
+	width: 500px;
+	height: 50px;
+	text-align: center;
+	color: #e9e9e9;
+}
+.sel{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 60px;
+	margin-top: 50px;
+	margin-left: 150px;
+	font-size: 40px;
+}
+.history{
+	position: relative;
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 20px;
+	font-size: 25px;
+	color: #e9e9e9;
+	display: none;
+}
+
+.tan{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	margin: auto;
+	width: 70px;
+	height: 130px;
+	border-radius: 8px;
+	background-color: gray;
+}
+.sar{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 360px;
+	background-color: gray;
+}
+.gardan{
+	position: absolute;
+	left: 99px;
+	bottom: 20px;
+	margin: auto;
+	width: 20px;
+	height: 30px;
+	border-radius: 8px;
+	background-color: gray;
+}
+.dastr{
+	position: absolute;
+	right: 99px;
+	bottom: 20px;
+	margin: auto;
+	width: 20px;
+	height: 70px;
+	border-radius: 8px;
+	background-color: gray;
+	transform: skew(26deg,200deg);
+}
+.dastl{
+	position: absolute;
+	right: 139px;
+	bottom: 20px;
+	margin: auto;
+	width: 20px;
+	height: 70px;
+	border-radius: 8px;
+	background-color: gray;
+	transform: skew(-26deg,-200deg);
+}
+.pochar{
+	position: absolute;
+	left: 129px;
+	bottom: 20px;
+	margin: auto;
+	width: 20px;
+	height: 90px;
+	border-radius: 8px;
+	background-color: gray;
+}
+.pochal{
+	position: absolute;
+	left: 159px;
+	bottom: 20px;
+	margin: auto;
+	width: 20px;
+	height: 90px;
+	border-radius: 8px;
+	background-color: gray;
+}
