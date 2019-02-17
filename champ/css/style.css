@@ -1,8 +1,8 @@
 body{
-	background-image: url(../image/rabstol_net_champions_league_10.jpg);
-	background-color: #f1f1f1;
+	background-color: gray;
+/*	background-color: #f1f1f1;
 	background-size: 100%;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 .boxxx{
@@ -23,17 +23,16 @@ body{
 	right: 0;
 	bottom: 40px;
 	margin: auto;
-	width: 100%;
-	height: 130px;
+	width: 30%;
+	height: 80px;
 	color: white;
 	background-color: darkblue;
-	font-size: 65px;
-	line-height: 120px;
+	font-size: 45px;
+	line-height: 70px;
 	text-align: center;
 	cursor: pointer;
 	opacity: .7;
-	border-top: 5px solid #4f73a5;
-	border-bottom: 5px solid #4f73a5;
+	border: 5px solid #4f73a5;
 
 }
 .btnn:hover{
@@ -48,6 +47,24 @@ body{
 	color: white;
 	width: 1000px;
 	height: 400px;
+}
+body img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 120px;
+	margin: auto;
+	width: 600px;
+	height: 350px;
+	background-color: ;
+}
+.img img{
+	border: 1px solid white; 
 }
 
 
