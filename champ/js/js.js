@@ -3,14 +3,14 @@ $(function(){
 
 	
 $("body").on("click",".btnn",function(){
-    var words = ["Manchester City","Manchester United","Barcelona","Real Madrid","Arsenal","Chelsea","Bayern Munchёn","Juventus","PSG","ATM","BVB","Liverpool"] 
+    var words = ["Manchester City","Manchester United","Barcelona","Rеal Madrid","Arsenal","Chelsea","Bayern Munchёn","Juventus","PSG","ATM","BVB","Liverpool","Jackpot"] 
     
      var hisob = {
      	random:random
      }
             
       function random(rakam){
-      	rakam = Math.random()*12;
+      	rakam = Math.random()*13;
       	rakam = Math.floor(rakam);
       	$(".word").html(""+words[rakam])
       }
