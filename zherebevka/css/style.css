@@ -1,0 +1,166 @@
+body{
+	background-color: gray;
+}
+.btnn{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	margin: auto;
+	width: 260px;
+	height: 80px;
+	color: white;
+	background-color: darkblue;
+	font-size: 45px;
+	line-height: 70px;
+	text-align: center;
+	cursor: pointer;
+	opacity: .7;
+	border: 5px solid #4f73a5;
+
+}
+.btnn:hover{
+	cursor: pointer;
+	color: darkgray;
+}
+.changer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	margin: auto;
+	width: 260px;
+	height: 80px;
+	color: white;
+	background-color: darkblue;
+	font-size: 45px;
+	line-height: 70px;
+	text-align: center;
+	cursor: pointer;
+	opacity: .7;
+	border: 5px solid #4f73a5;
+
+}
+.changer:hover{
+	cursor: pointer;
+	color: darkgray;
+}
+.changer{
+	bottom: 5px;
+	width: 100px;
+	height: 40px;
+	padding: 0;
+	line-height: 10px;
+	font-size: 19px;
+}
+.word{
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 95px;
+	color: white;
+	width: 1000px;
+	height: 400px;
+}
+body img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 120px;
+	margin: auto;
+	width: 600px;
+	height: 350px;
+	background-color: ;
+}
+.img img{
+	border: 1px solid white; 
+}
+.champ{
+	display: block;
+}
+.zrb{
+	display: none;
+}
+.tms{
+	position: relative;
+	float: left;
+	width: 170px;
+	height: 50px;
+	background-color: #060f82;
+	margin: 10px;
+	margin-left: 40px;
+	font-size: 17px;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 8px;
+	z-index: 100;
+}
+.tms:hover{
+	background-color: #1a26c5;
+	cursor: pointer;
+}
+.tmsbtn{
+	position: relative;
+	float: left;
+	width: 170px;
+	height: 50px;
+	background-color: #060f82;
+	margin: 10px;
+	margin-left: 40px;
+	font-size: 17px;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.tmsbtn:hover{
+	background-color: #1a26c5;
+	cursor: pointer;
+}
+.zrb{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+.fc{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin: 15px;
+}
+.divs{
+	position: relative;
+	margin: 0 auto;
+	padding:;
+	width: 300px;
+	height: 80px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+.zrbvka{
+	background-color: #ab0d0d;
+	z-index: 100;
+}
+.zrbvka:hover{
+	background-color: #610404;
+}
+.jackson{
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: auto;
+	width: 30px;
+	height: 30px;
+	opacity: 0;
+}
