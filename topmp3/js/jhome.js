@@ -1,5 +1,11 @@
 $(function(){
-																
+						
+
+				$("body").on("click",".media_menu",function(){
+					$(".media_menu_list").toggle();
+				});
+
+
 				$("body").on("click",".add_music_btn",function(){
 					var add_music_name = $(".treck_name").val();
 					var add_singer_name = $(".treck_singer").val();
