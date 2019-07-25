@@ -19,8 +19,8 @@ $(function(){
 					var name  = $(this).find("p").html();
 					var nowplaying  = $(this).find("b").html();
 					var playicon = $(this).find("i").attr("class")
-					$("audio").attr("src","audios/"+music+".mp3")
-					$(".overlay").find("img").attr("src","cover/"+music+".jpg")
+					$("audio").attr("src",music)
+					$(".overlay").find("img").attr("src","cover/ComputerDesktopWallpapersCollection2009__061.jpg")
 					$(".albomshower").find("img").attr("src","cover/"+music+".jpg")
 					$(".nowplaying").html(nowplaying)
 					$(".singer").html(name)
