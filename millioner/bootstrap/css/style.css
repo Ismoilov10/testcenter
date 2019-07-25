@@ -1,0 +1,239 @@
+body{
+	background-color: #c1c1c1;
+}
+.game_timer{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 64px;
+	height: 64px;
+	font-size: 22px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 360px;
+	color: red;
+	border: 2px solid red;
+	box-shadow: 0 0 20px red;
+	background-color: #1b0101ad;
+}
+
+.millioner_wrapper{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 700px;
+	margin-top: 10px;
+	background-color: darkblue;
+	box-shadow: 0 0 8px black;
+	overflow-x: hidden;
+}
+.millioner_helps_wrapper{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 250px;
+}
+.question{
+	position: relative;
+	float: left;
+	color: white;
+	font-size: 21px;
+	text-align: center;
+	width: 80%;
+	margin-left: 70px;
+	height: 80px;
+	background-color: #003fb1;/**/
+	box-shadow: 0 0 7px #003fb1;
+	color: white;
+	line-height: 76px;
+}
+.questions{
+	display: none;
+}
+.answers{
+	position: relative;
+	float: left;
+	margin-top: 15px;
+	margin-left: 70px;
+	width: 80%;
+	height: 60px;
+	font-size: 18px;
+	color: white;
+	line-height: 60px;
+	padding-left: 5px;
+	box-shadow: 0 0 7px black;
+	transition: 1s;
+	background-color: #03033eb5;
+}
+.win_wrapper{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 700px;
+	z-index: 5;
+	display: none;
+}
+.money_overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 2px solid red;
+	border-radius: 8px;
+	width: 300px;
+	height: 29px;
+	box-shadow: 0 0 16px red;
+}
+.win_wrapper table{
+	background-color: black;
+	width: 100%;
+	height: 145px;
+}
+.win_wrapper li{
+	width: 300px;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 8px;
+	color: yellow;
+}
+.lose_wrapper{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	z-index: 5;
+	background-color: black;
+	color:orange;
+	display: none;
+}
+.main_img{
+	position: absolute;
+	left: -20;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 140%;
+	height: 100%;
+}
+.fifty_wrapper{
+	position: relative;
+	float: left;
+	color: white;
+	font-size: 22px;
+	width: 75px;
+	height: 75px;
+	border-radius: 360px;
+	border: 2px dotted white;
+	line-height: 68px;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 15px;
+	transition: 1s;
+	cursor:pointer;
+	font-family: "等线 Light","Microsoft Yahei Light";
+}
+.friend_call_wrapper{
+	position: relative;
+	float: left;
+	color: white;
+	font-size: 18px;
+	width: 105px;
+	height: 75px;
+	border-radius: 360px;
+	border: 2px dotted white;
+	line-height: 33px;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 15px;
+	transition: 1s;
+	cursor:pointer;
+	font-family: "等线 Light","Microsoft Yahei Light";
+
+}
+.friend_calling_wrapper{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 2;
+}
+.friend_calling_wrapper b{
+	position: absolute;
+	color: white;
+	font-size: 55px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #fff814bd;
+	width: 100%;
+	margin-top: 90px;
+	height: 150px;
+	color: black;
+	text-align: center;
+	padding-left: 50px;	
+}
+.friend_calling_wrapper button{
+	position: absolute;
+	top: 175px;
+	width: 300px;
+	height: 50px;
+	left: 350px;
+}
+
+.hole_help_wrapper{
+	position: relative;
+	float: left;
+	color: white;
+	font-size: 18px;
+	width: 119px;
+	height: 75px;
+	border-radius: 360px;
+	border: 2px dotted white;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 15px;
+	transition: 1s;
+	cursor:pointer;
+	font-family: "等线 Light","Microsoft Yahei Light";
+}
+.hole_helping_wrapper{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 900px;
+	height: 600px;
+	background-color: darkblue;
+	z-index: 2;
+	display: none;
+}
+.hole_helping_wrapper button{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+	margin: auto;
+	width: 100%;
+	height: 80px;
+	font-size: 25px !important;
+}
+.hole_helping_wrapper div{
+	position: relative;
+	float: left;
+	background-color: red;
+	width: 170px;
+	height: 300px;
+	margin: 27px;
+	font-size: 22px;
+	text-align: center;
+	box-shadow: 0 0 10px red;
+
+}
