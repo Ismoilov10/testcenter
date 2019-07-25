@@ -20,15 +20,15 @@ $(function(){
 					var nowplaying  = $(this).find("b").html();
 					var playicon = $(this).find("i").attr("class")
 					$("audio").attr("src",music)
-					$(".overlay").find("img").attr("src","cover/ComputerDesktopWallpapersCollection2009__061.jpg")
-					$(".albomshower").find("img").attr("src","cover/"+music+".jpg")
+					$(".overlay").find("img").attr("src","img/ComputerDesktopWallpapersCollection2009__061.jpg")
+					$(".albomshower").find("img").attr("src","img/ComputerDesktopWallpapersCollection2009__061.jpg")
 					$(".nowplaying").html(nowplaying)
 					$(".singer").html(name)
 					if (playicon=="fa fa-play") {
 					  $("i").attr("class","fa fa-play")		
 					  $(this).find("i").attr("class","fa fa-pause");
 					}else{
-						$(this).find("i").attr("class","fa fa-play");
+					  $(this).find("i").attr("class","fa fa-play");
 					}
 				});
 
