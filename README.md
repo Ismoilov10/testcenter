@@ -5,6 +5,8 @@ Click here -->[Ali](https://ismoilov10.github.io/testcenter/topmp3 "MP3 Site")
 
 Click here -->[Millioner](https://ismoilov10.github.io/testcenter/millioner "Millioner")
 
+Click here -->[Tests](https://ismoilov10.github.io/testcenter/tests "Tests")
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 ```
 ### Markdown
