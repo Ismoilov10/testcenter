@@ -1,16 +1,43 @@
 $(function(){
 
 			$("body").on("click",".tms",function(){
-
-				$(this).css("background-color","blue")
 				var team = $(this).html();
+
+				
+				if (team==numbers[0] || team==numbers[1] || team==numbers[2] || team==numbers[3] || team==numbers[4] || team==numbers[5] || team==numbers[6] || team==numbers[7] || team==numbers[8] || team==numbers[9] || team==numbers[10] || team==numbers[11]) {
+					for (var i = 0; i<numbers.length; i++) {
+						if (numbers[i]==team) {
+							delete numbers[i];
+							$("t").html("");
+							numbers = numbers.filter(function(x) {
+    							return x !== undefined && x !== null; 
+							});
+							$(this).css("background-color","red");
+							$(this).css("border","2px solid white");
+							$(this).css("color","black");
+						}
+
+						
+						
+					}
+				}else{
+				$(this).css("background-color","black");
+				$(this).css("border","2px solid whire");
+				$(this).css("color","#ff0000");	
 				numbers.push(team);
+				}
+				
 			   
 			   console.log(numbers)
 			});
 
 		var numbers = []
 			$("body").on("click",".zrbvka",function(){
+
+				if (numbers=="") {
+					$("t").html("");
+				}
+				
 				var zero = numbers[0];
 				var first = numbers[1];
 				var second = numbers[2];
@@ -23,7 +50,7 @@ $(function(){
 				var nines = numbers[9];
 				var tens = numbers[10];
 				var elevens = numbers[11];
-
+			
 				$(".tms0").html(zero);
 				$(".tms1").html(first);
 				$(".tms2").html(second);
@@ -36,7 +63,8 @@ $(function(){
 				$(".tms9").html(nines);
 				$(".tms10").html(tens);
 				$(".tms11").html(elevens);
-
+				
+				
 				function shuffle(o) {
     	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     	return o;
@@ -52,12 +80,17 @@ console.log(random);
 				$(".champ").toggle();
 				$(".zrb").toggle();
 			});
-
-
+			
 			$("body").on("click",".btnn",function(){
 				
-				
-					
+
+				$('.btnn').find('i').animate({  borderSpacing: -390 }, {
+    step: function(now,fx) {
+      $("i").css('transform','rotate('+now+'deg)');  
+    },
+    duration:'slow'
+},'linear');
+
 
 
     var words = ["Manchester City","Manchester United","Barcelona","Rеal Madrid","Arsenal","Chelsea","Bayern Munchёn","Juventus","PSG","ATM","BVB","Liverpool","Jackpot"]; 
@@ -70,6 +103,7 @@ console.log(random);
       	rakam = Math.floor(rakam);
       	if (sel==0) {
 						$(".word").html("Jackpot")
+						sel=1;
 					}else{
       	$(".word").html(words[rakam])
         //$(".tm"+rakam).html([rakam]);
@@ -122,11 +156,3 @@ console.log(random);
 
 
 
-
-
-
-//randomfunc with array//
-/*for (var a = [0, 1, 2, 3, 4], i = a.length; i--; ) {
-    var random = a.splice(Math.floor(Math.random() * (i + 1)), 1)[0];
-    console.log(random);
-}*/
